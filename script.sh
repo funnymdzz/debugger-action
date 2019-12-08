@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo hrhr
 set -e
 
 if [[ ! -z "$SKIP_DEBUGGER" ]]; then
