@@ -13,7 +13,7 @@ if [ -x "$(command -v brew)" ]; then
   brew install tmate > /tmp/brew.log
 fi
 if [ -x "$(command -v apt-get)" ]; then
-  sudo apt-get install -y tmate openssh-client > /tmp/apt-get.log
+ sudo apt update && sudo apt-get install -y tmate openssh-client > /tmp/apt-get.log
 fi
 
 # Generate ssh key if needed
